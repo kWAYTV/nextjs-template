@@ -2,9 +2,6 @@ import './globals.css';
 
 import { Geist, Geist_Mono } from 'next/font/google';
 
-import { BackToTop } from '@/components/core/layout/back-to-top';
-import { Footer } from '@/components/core/layout/footer';
-import { Navbar } from '@/components/core/layout/navbar';
 import { Providers } from '@/components/core/providers/providers';
 import { createMetadata } from '@/lib/metadata';
 
@@ -28,14 +25,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col antialiased`}
       >
-        <Providers>
-          <Navbar />
-          <main className='mx-auto flex w-full max-w-screen-xl flex-1 items-center justify-center px-4'>
-            {children}
-          </main>
-          <Footer />
-          <BackToTop />
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
