@@ -25,7 +25,7 @@ export function Navbar() {
       className={cn(
         'sticky top-0 z-50 w-full transition-all duration-300',
         isScrolled
-          ? 'bg-background/80 supports-[backdrop-filter]:bg-background/60 dark:bg-background/80 dark:supports-[backdrop-filter]:bg-background/60 backdrop-blur-md'
+          ? 'bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60 dark:bg-background/80 dark:supports-[backdrop-filter]:bg-background/60'
           : 'bg-transparent'
       )}
       initial={{ y: -100 }}

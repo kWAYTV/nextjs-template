@@ -1,10 +1,10 @@
 'use client';
 
-import Link from 'next/link';
 import { motion } from 'motion/react';
+import Link from 'next/link';
 
 import { Separator } from '@/components/ui/separator';
-import { githubRepoUrl, githubProfileUrl } from '@/lib/metadata';
+import { githubProfileUrl, githubRepoUrl } from '@/lib/metadata';
 
 export function Footer() {
   return (
@@ -17,7 +17,7 @@ export function Footer() {
       <Separator />
       <div className='mx-auto max-w-screen-xl px-4'>
         <div className='flex h-16 items-center justify-center'>
-          <p className='text-muted-foreground text-center text-sm'>
+          <p className='text-center text-sm text-muted-foreground'>
             Built by{' '}
             <Link
               href={githubProfileUrl}
