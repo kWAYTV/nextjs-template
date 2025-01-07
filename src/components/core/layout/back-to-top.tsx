@@ -30,7 +30,7 @@ export function BackToTop() {
       <Button
         size='icon'
         onClick={scrollToTop}
-        className='group h-10 w-10 rounded-full bg-background shadow-lg transition-all duration-300 hover:scale-110 hover:bg-foreground hover:shadow-[0_0_2rem_-0.5rem_theme(colors.foreground.DEFAULT)] dark:border dark:border-border'
+        className='dark:border-border group h-10 w-10 rounded-full bg-background shadow-lg transition-all duration-300 hover:scale-110 hover:bg-foreground hover:shadow-xl dark:border'
       >
         <ArrowUpIcon className='h-5 w-5 transition-all duration-300 group-hover:text-background dark:group-hover:text-background' />
       </Button>
