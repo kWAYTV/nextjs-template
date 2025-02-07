@@ -19,7 +19,7 @@ export default function NotFound() {
       </motion.div>
 
       <motion.p
-        className='max-w-md text-muted-foreground'
+        className='text-muted-foreground max-w-md'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.5 }}

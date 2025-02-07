@@ -15,9 +15,9 @@ export function Footer() {
       transition={{ delay: 0.2 }}
     >
       <Separator />
-      <div className='mx-auto max-w-screen-xl px-4'>
+      <div className='mx-auto max-w-(--breakpoint-xl) px-4'>
         <div className='flex h-16 items-center justify-center'>
-          <p className='text-center text-sm text-muted-foreground'>
+          <p className='text-muted-foreground text-center text-sm'>
             Built by{' '}
             <Link
               href={githubProfileUrl}

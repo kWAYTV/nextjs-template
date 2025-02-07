@@ -14,7 +14,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
       <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
         <TooltipProvider>
           <Navbar />
-          <main className='mx-auto flex w-full max-w-screen-xl flex-1 items-center justify-center px-4'>
+          <main className='mx-auto flex w-full max-w-(--breakpoint-xl) flex-1 items-center justify-center px-4'>
             {children}
           </main>
           <Footer />

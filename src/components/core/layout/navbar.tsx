@@ -25,14 +25,14 @@ export function Navbar() {
       className={cn(
         'sticky top-0 z-50 w-full transition-all duration-300',
         isScrolled
-          ? 'bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60 dark:bg-background/80 dark:supports-[backdrop-filter]:bg-background/60'
+          ? 'bg-background/80 supports-backdrop-filter:bg-background/60 dark:bg-background/80 dark:supports-backdrop-filter:bg-background/60 backdrop-blur-md'
           : 'bg-transparent'
       )}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ type: 'spring', stiffness: 300, damping: 30 }}
     >
-      <div className='mx-auto max-w-screen-xl px-4'>
+      <div className='mx-auto max-w-(--breakpoint-xl) px-4'>
         <nav className='flex h-16 items-center justify-between'>
           <Link href='/' className='flex items-center space-x-2'>
             <motion.span

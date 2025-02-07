@@ -22,7 +22,7 @@ export function BackToTop() {
 
   return (
     <motion.div
-      className='fixed bottom-4 right-4 z-50 md:bottom-8 md:right-8'
+      className='fixed right-4 bottom-4 z-50 md:right-8 md:bottom-8'
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: isVisible ? 1 : 0, scale: isVisible ? 1 : 0.8 }}
       transition={{ duration: 0.2 }}
@@ -30,9 +30,9 @@ export function BackToTop() {
       <Button
         size='icon'
         onClick={scrollToTop}
-        className='group h-10 w-10 rounded-full bg-background shadow-lg transition-all duration-300 hover:scale-110 hover:bg-foreground hover:shadow-xl dark:border dark:border-border'
+        className='group bg-background hover:bg-foreground dark:border-border h-10 w-10 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl dark:border'
       >
-        <ArrowUpIcon className='h-5 w-5 transition-all duration-300 group-hover:text-background dark:group-hover:text-background' />
+        <ArrowUpIcon className='group-hover:text-background dark:group-hover:text-background h-5 w-5 transition-all duration-300' />
       </Button>
     </motion.div>
   );
