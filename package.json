@@ -3,12 +3,12 @@
   "version": "0.1.3",
   "private": true,
   "scripts": {
-    "dev": "next lint --fix && next dev --turbopack",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint --fix",
     "format": "prettier --write .",
-    "bump": "next lint --fix && bumpp"
+    "bump": "bumpp"
   },
   "dependencies": {
     "@radix-ui/react-separator": "^1.1.2",
