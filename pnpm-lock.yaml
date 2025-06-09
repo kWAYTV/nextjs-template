@@ -19,7 +19,7 @@ importers:
         version: 1.2.7(@types/react-dom@19.1.5(@types/react@19.1.6))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@t3-oss/env-nextjs':
         specifier: ^0.12.0
-        version: 0.12.0(typescript@5.8.3)(zod@3.25.48)
+        version: 0.12.0(typescript@5.8.3)(zod@3.25.56)
       bumpp:
         specifier: ^10.1.0
         version: 10.1.1
@@ -57,8 +57,8 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@4.1.8)
       zod:
-        specifier: ^3.24.3
-        version: 3.25.48
+        specifier: ^3.25.56
+        version: 3.25.56
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.3.1
@@ -2381,8 +2381,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.25.48:
-    resolution: {integrity: sha512-0X1mz8FtgEIvaxGjdIImYpZEaZMrund9pGXm3M6vM7Reba0e2eI71KPjSCGXBfwKDPwPoywf6waUKc3/tFvX2Q==}
+  zod@3.25.56:
+    resolution: {integrity: sha512-rd6eEF3BTNvQnR2e2wwolfTmUTnp70aUTqr0oaGbHifzC3BKJsoV+Gat8vxUMR1hwOKBs6El+qWehrHbCpW6SQ==}
 
 snapshots:
 
@@ -2812,17 +2812,17 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@t3-oss/env-core@0.12.0(typescript@5.8.3)(zod@3.25.48)':
+  '@t3-oss/env-core@0.12.0(typescript@5.8.3)(zod@3.25.56)':
     optionalDependencies:
       typescript: 5.8.3
-      zod: 3.25.48
+      zod: 3.25.56
 
-  '@t3-oss/env-nextjs@0.12.0(typescript@5.8.3)(zod@3.25.48)':
+  '@t3-oss/env-nextjs@0.12.0(typescript@5.8.3)(zod@3.25.56)':
     dependencies:
-      '@t3-oss/env-core': 0.12.0(typescript@5.8.3)(zod@3.25.48)
+      '@t3-oss/env-core': 0.12.0(typescript@5.8.3)(zod@3.25.56)
     optionalDependencies:
       typescript: 5.8.3
-      zod: 3.25.48
+      zod: 3.25.56
 
   '@tailwindcss/node@4.1.8':
     dependencies:
@@ -4773,4 +4773,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.25.48: {}
+  zod@3.25.56: {}
